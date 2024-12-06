@@ -1,72 +1,68 @@
 Part I: Understanding Data Types
 
-1. What type would you choose for the following “numbers”?
-A person’s telephone number: string
-A person’s height: float
-A person’s age: int
-A person’s gender (Male, Female, Prefer Not To Answer): enum
-A person’s salary: decimal
-A book’s ISBN: string
-A book’s price: decimal
-A book’s shipping weight: float
-A country’s population: long
-The number of stars in the universe: double
-The number of employees in each of the small or medium businesses in the United Kingdom (up to about 50,000 employees per business): int
+1. What type would you choose for the following “numbers”?  
+A person’s telephone number: string  
+A person’s height: float  
+A person’s age: int  
+A person’s gender (Male, Female, Prefer Not To Answer): enum  
+A person’s salary: decimal  
+A book’s ISBN: string  
+A book’s price: decimal  
+A book’s shipping weight: float  
+A country’s population: long  
+The number of stars in the universe: double  
+The number of employees in each of the small or medium businesses in the United Kingdom (up to about 50,000 employees per business): int  
 
+2. What are the difference between value type and reference type variables? What is boxing and unboxing?  
+Value type vs Reference type:  
+1. Value type will hold the value while reference type holds the memory address or reference for this value.  
+2. Value types are stored in stack memory while reference types are stored in heap memory.  
+3. Value type will not be collected by garbage collector but reference types will be collected by the garbage collector.  
+4. The value type can be created by struct or enum while reference types are created by class, interface, delegate, or array.  
+5. Value types cannot accept null values while reference types can accept null values.  
 
-2. What are the difference between value type and reference type variables? What is
-boxing and unboxing?
-   Value type vs Reference type:
-    1. Value type will hold the value while reference type hold the memory address or reference for this value;
-    2. Value types are stored in stack memory while reference type are stored in heap memory
-    3. Value type will not be collected by garbage collector but reference type will be collected by the garbage collector.
-    4. The value type can be created by struct or enum while reference type will be created by class, interface, delegate or array.
-    5. Value types cannot accept null values while reference type can accept null values;
+Boxing: Conversion of the value type to the reference type/object type.  
+Unboxing: Conversion of reference type to value type.  
 
-   Boxing: Conversion of the value type to the reference type/object type
-   Unboxing: Conversion of reference type to value type
+3. What is meant by the terms managed resource and unmanaged resource in .NET?  
+Managed resource is handled automatically by .NET garbage collector and stored in heap memory.  
+Unmanaged resource is not handled by garbage collector, and developers must manually release them by calling the Dispose method of IDisposable interface.  
 
-3. What is meant by the terms managed resource and unmanaged resource in .NET
-   Managed resource is handled automatically by .Net garbage collector. Stored in heap memory.
-   Unmanaged resource is not handle by garbage collector, developers must manually release them by calling the Dispose method of IDisposable interface.
+4. What's the purpose of Garbage Collector in .NET?  
+The garbage collector is an automatic memory manager. It allows users to avoid manually releasing memory. It allocates objects on the managed heap efficiently and uses generations (0, 1, 2) to handle short-lived and long-lived objects separately.  
 
-4. What's the purpose of Garbage Collector in .NET?
-   The garbage collector is automatic memory manager. Using this, users do not need to manually release memory. It can
-   allocate objects on managed heap efficiently. It uses generations(0,1,2) to handle short or long-lived objects separately.
+Part II: Controlling Flow and Converting Types
 
-
-Part II Controlling Flow and Converting Types
-
-1. What happens when you divide an int variable by 0?
-   Throws `System.DivideByZeroException`.
+1. What happens when you divide an int variable by 0?  
+Throws System.DivideByZeroException.  
 
 2. What happens when you divide a double variable by 0?  
-   Returns `Infinity` or `NaN`.
+Returns Infinity or NaN.  
 
 3. What happens when you overflow an int variable, that is, set it to a value beyond its range?  
-   Wraps around (e.g., `int.MaxValue + 1` becomes `int.MinValue`) or throws `System.OverflowException` if checked.
+Wraps around (e.g., int.MaxValue + 1 becomes int.MinValue) or throws System.OverflowException if checked.  
 
-4. What is the difference between `x = y++;` and `x = ++y;`?  
-   - `y++`: Assign `y` to `x`, then increment `y`.  
-   - `++y`: Increment `y`, then assign to `x`.
+4. What is the difference between x = y++; and x = ++y?  
+y++: Assign y to x, then increment y.  
+++y: Increment y, then assign to x.  
 
-5. What is the difference between `break`, `continue`, and `return` when used inside a loop statement?  
-   - `break`: Exits the loop.  
-   - `continue`: Skips to the next iteration.  
-   - `return`: Exits the method.
+5. What is the difference between break, continue, and return when used inside a loop statement?  
+break: Exits the loop.  
+continue: Skips to the next iteration.  
+return: Exits the method.  
 
-6. What are the three parts of a `for` statement and which of them are required?  
-   - Initialization, condition, increment. Only condition is required.
+6. What are the three parts of a for statement and which of them are required?  
+Initialization, condition, increment. Only condition is required.  
 
-7. What is the difference between the `=` and `==` operators?  
-   - `=`: Assignment.  
-   - `==`: Comparison.
+7. What is the difference between the = and == operators?  
+=: Assignment.  
+==: Comparison.  
 
-8. Does the following statement compile? `for ( ; true; ) ;`  
-   Yes, it compiles and creates an infinite loop.
+8. Does the following statement compile? for ( ; true; ) ;  
+Yes, it compiles and creates an infinite loop.  
 
-9. What does the underscore `_` represent in a switch expression?  
-   It represents the default case.
+9. What does the underscore _ represent in a switch expression?  
+It represents the default case.  
 
-10. What interface must an object implement to be enumerated over by using the `foreach` statement?  
-    `IEnumerable` or `IEnumerable<T>`.
+10. What interface must an object implement to be enumerated over by using the foreach statement?  
+IEnumerable or IEnumerable<T>.
