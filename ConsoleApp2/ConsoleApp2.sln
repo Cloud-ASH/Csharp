@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02UnderstandingTypes", "02UnderstandingTypes\02UnderstandingTypes.csproj", "{28F53917-55C1-4F7D-8001-D5375A80BC2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAndStringExercises", "ArrayAndStringExercises\ArrayAndStringExercises.csproj", "{B4BB7B59-1B47-40C2-B74A-93AE23BC9EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03ObjectOrientedProgramming", "03ObjectOrientedProgramming\03ObjectOrientedProgramming.csproj", "{D0B8E171-8385-42C0-B14C-0EF856FD0797}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28F53917-55C1-4F7D-8001-D5375A80BC2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F53917-55C1-4F7D-8001-D5375A80BC2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F53917-55C1-4F7D-8001-D5375A80BC2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F53917-55C1-4F7D-8001-D5375A80BC2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BB7B59-1B47-40C2-B74A-93AE23BC9EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BB7B59-1B47-40C2-B74A-93AE23BC9EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BB7B59-1B47-40C2-B74A-93AE23BC9EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BB7B59-1B47-40C2-B74A-93AE23BC9EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0B8E171-8385-42C0-B14C-0EF856FD0797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0B8E171-8385-42C0-B14C-0EF856FD0797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0B8E171-8385-42C0-B14C-0EF856FD0797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0B8E171-8385-42C0-B14C-0EF856FD0797}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

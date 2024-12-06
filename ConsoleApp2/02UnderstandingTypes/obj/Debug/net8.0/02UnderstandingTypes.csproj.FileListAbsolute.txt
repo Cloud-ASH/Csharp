@@ -1,0 +1,14 @@
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/bin/Debug/net8.0/02UnderstandingTypes
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/bin/Debug/net8.0/02UnderstandingTypes.deps.json
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/bin/Debug/net8.0/02UnderstandingTypes.runtimeconfig.json
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/bin/Debug/net8.0/02UnderstandingTypes.dll
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/bin/Debug/net8.0/02UnderstandingTypes.pdb
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/obj/Debug/net8.0/02UnderstandingTypes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/obj/Debug/net8.0/02UnderstandingTypes.AssemblyInfoInputs.cache
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/obj/Debug/net8.0/02UnderstandingTypes.AssemblyInfo.cs
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/obj/Debug/net8.0/02UnderstandingTypes.csproj.CoreCompileInputs.cache
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/obj/Debug/net8.0/02UnderstandingTypes.dll
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/obj/Debug/net8.0/refint/02UnderstandingTypes.dll
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/obj/Debug/net8.0/02UnderstandingTypes.pdb
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/obj/Debug/net8.0/02UnderstandingTypes.genruntimeconfig.cache
+/Users/zeyushen/Documents/csharp/ConsoleApp2/02UnderstandingTypes/obj/Debug/net8.0/ref/02UnderstandingTypes.dll
